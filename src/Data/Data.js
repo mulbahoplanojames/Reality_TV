@@ -147,13 +147,13 @@ export const criterialsLinks = [
   },
   {
     id: 2,
-    label: "Best TikToker",
-    path: "best-tiktokers",
+    label: "Academics Awards",
+    path: "/criterials",
   },
   {
     id: 3,
     label: "Social Awards",
-    path: "social-awards",
+    path: "/criterials/social-awards",
   },
   {
     id: 4,

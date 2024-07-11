@@ -5,6 +5,7 @@ import { AppContext } from "./Context/AppContext";
 import { useContext } from "react";
 import Criterial from "./Pages/Criterials/Criterial";
 import MusicCriterials from "./Pages/More_Criterials/Music_Award/MusicAward";
+import SocialsAward from "./Pages/More_Criterials/Socials_Award/SocialsAward";
 
 const App = () => {
   const { darkModeStyle } = useContext(AppContext);
@@ -20,6 +21,10 @@ const App = () => {
             <Route
               path="/criterials/muscial-awards"
               element={<MusicCriterials />}
+            />
+            <Route
+              path="/criterials/social-awards"
+              element={<SocialsAward />}
             />
           </Route>
         </Routes>
