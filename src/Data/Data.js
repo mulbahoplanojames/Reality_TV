@@ -84,3 +84,36 @@ export const TeamData = [
     },
   },
 ];
+
+export const faqdata = [
+  {
+    id: 1,
+    question: "What is the Reality TV Show?",
+    answer:
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe, itaque quasi eum culpa iste?",
+  },
+  {
+    id: 2,
+    question: "What is the Reality TV Show?",
+    answer:
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe, itaque quasi eum culpa iste?",
+  },
+  {
+    id: 3,
+    question: "What is the Reality TV Show?",
+    answer:
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe, itaque quasi eum culpa iste?",
+  },
+  {
+    id: 4,
+    question: "What is the Reality TV Show?",
+    answer:
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe, itaque quasi eum culpa iste?",
+  },
+  {
+    id: 5,
+    question: "What is the Reality TV Show?",
+    answer:
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe, itaque quasi eum culpa iste?",
+  },
+];

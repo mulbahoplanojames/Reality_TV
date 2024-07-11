@@ -3,6 +3,7 @@ import HomeHero from "../../Components/Home_Hero/HomeHero";
 import Swal from "sweetalert2";
 import Team from "../../Components/Team/Team";
 import NewsLetter from "../../NewsLetter/NewsLetter";
+import FAQ from "../../Components/FAQ/FAQ";
 
 const Home = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Home = () => {
         <HomeHero />
         <Team />
         <NewsLetter />
+        <FAQ />
       </div>
     </>
   );

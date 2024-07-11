@@ -2,13 +2,9 @@ import { TeamData } from "../../Data/Data";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { AppContext } from "../../Context/AppContext";
-import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 const Team = () => {
-  const { darkMode } = useContext(AppContext);
-
   return (
     <>
       <div className="px-4 mt-20 pb-16 text-center">
