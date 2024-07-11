@@ -143,7 +143,7 @@ export const criterialsLinks = [
   {
     id: 1,
     label: "Musical Awards",
-    path: "muscial-awards",
+    path: "/criterials/muscial-awards",
   },
   {
     id: 2,
