@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#teamborder {
+  border-radius: 0% 100% 0% 100% / 100% 34% 66% 0%;
+}

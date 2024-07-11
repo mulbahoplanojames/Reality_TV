@@ -18,3 +18,69 @@ const navLinks = [
 ];
 
 export default navLinks;
+
+// =================================================================================
+
+import member1 from "../assets/hero1.jpg";
+import member2 from "../assets/hero2.jpg";
+import member3 from "../assets/hero3.jpg";
+import member4 from "../assets/hero2.jpg";
+import member5 from "../assets/hero1.jpg";
+
+export const TeamData = [
+  {
+    id: 1,
+    name: "Samantha",
+    role: "Director",
+    image: member1,
+    social_links: {
+      facebook: "https://www.facebook.com/",
+      twitter: "https://twitter.com/",
+      instagram: "https://www.instagram.com/",
+    },
+  },
+  {
+    id: 2,
+    name: "Samantha",
+    role: "Director",
+    image: member2,
+    social_links: {
+      facebook: "https://www.facebook.com/",
+      twitter: "https://twitter.com/",
+      instagram: "https://www.instagram.com/",
+    },
+  },
+  {
+    id: 3,
+    name: "Samantha",
+    role: "Director",
+    image: member3,
+    social_links: {
+      facebook: "https://www.facebook.com/",
+      twitter: "https://twitter.com/",
+      instagram: "https://www.instagram.com/",
+    },
+  },
+  {
+    id: 4,
+    name: "Samantha",
+    role: "Director",
+    image: member4,
+    social_links: {
+      facebook: "https://www.facebook.com/",
+      twitter: "https://twitter.com/",
+      instagram: "https://www.instagram.com/",
+    },
+  },
+  {
+    id: 5,
+    name: "Samantha",
+    role: "Director",
+    image: member5,
+    social_links: {
+      facebook: "https://www.facebook.com/",
+      twitter: "https://twitter.com/",
+      instagram: "https://www.instagram.com/",
+    },
+  },
+];
