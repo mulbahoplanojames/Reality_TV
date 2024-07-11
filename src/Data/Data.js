@@ -163,16 +163,11 @@ export const criterialsLinks = [
   {
     id: 5,
     label: "Best Entrepreneur",
-    path: "best-entrepreneur",
+    path: "/criterials/best-entrepreneur",
   },
   {
     id: 6,
-    label: "Player Category",
-    path: "player-category",
-  },
-  {
-    id: 7,
-    label: "Coaching Category",
-    path: "coaching-category",
+    label: "Sports Category",
+    path: "sports-category",
   },
 ];
