@@ -9,6 +9,7 @@ import SocialsAward from "./Pages/More_Criterials/Socials_Award/SocialsAward";
 import LeaderShipAward from "./Pages/More_Criterials/LeaderShip_Award/LeaderShipAward";
 import EnterpreneurAward from "./Pages/More_Criterials/Entrepreneur_Award/EntrepreneurAward";
 import SportAward from "./Pages/More_Criterials/Sport_Award/SportAward";
+import ContactUs from "./Pages/ContactUs/ContactUs";
 
 const App = () => {
   const { darkModeStyle } = useContext(AppContext);
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="/contact-us" element={<ContactUs />} />
 
             {/* // Criterials Pages */}
             <Route path="/criterials" element={<Criterial />} />

@@ -102,14 +102,14 @@ const Navbar = () => {
                 </li>
               ))}
               <Link
-                to="/sign-up"
+                to="/contact-us"
                 className="py-1.5 lg:px-4 px-5 border-[1px] border-white text-xl lg:text-lg rounded-3xl text-white hover:opacity-50"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                   window.scrollTo(0, 8000);
                 }}
               >
-                sign in
+                Contact Us
               </Link>
             </ul>
           </nav>
