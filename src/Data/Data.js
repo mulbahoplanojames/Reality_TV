@@ -9,7 +9,7 @@ const navLinks = [
   },
   {
     label: "Critetials",
-    path: "/critetials",
+    path: "/criterials",
   },
   {
     label: "Nominations",
@@ -134,5 +134,50 @@ export const faqdata = [
     question: "What is the Reality TV Show?",
     answer:
       " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe, itaque quasi eum culpa iste?",
+  },
+];
+
+//======================================================================================
+
+export const criterialsLinks = [
+  {
+    id: 1,
+    label: "Musical Awards",
+    path: "muscial-awards",
+  },
+  {
+    id: 2,
+    label: "Best TikToker",
+    path: "best-tiktokers",
+  },
+  {
+    id: 3,
+    label: "Social Awards",
+    path: "social-awards",
+  },
+  {
+    id: 4,
+    label: "Leadership Awards",
+    path: "leadership-awards",
+  },
+  {
+    id: 5,
+    label: "Mentorship Awards",
+    path: "mentorship-awards",
+  },
+  {
+    id: 6,
+    label: "Best Entrepreneur",
+    path: "best-entrepreneur",
+  },
+  {
+    id: 7,
+    label: "Player Category",
+    path: "player-category",
+  },
+  {
+    id: 8,
+    label: "Coaching Category",
+    path: "coaching-category",
   },
 ];
