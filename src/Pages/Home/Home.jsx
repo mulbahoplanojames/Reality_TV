@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     Swal.fire({
       title: "THE REALITY TV NOMINATION OFFICIAL PLATFORM",
-      text: "Please be inform that this is not the Official Website for the Reality Tv Show. It is just a platform created for the purpose of the reality tv nomination.",
+      text: "Please be inform that this is not the Official Website for the Reality TV Show. It is just a platform created for the purpose of the Reality TV nomination.",
       icon: "info",
     });
   }, []);

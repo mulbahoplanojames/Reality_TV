@@ -20,6 +20,25 @@ const navLinks = [
 export default navLinks;
 
 // =================================================================================
+export const footerLinks = [
+  {
+    label: "Home",
+    path: "/",
+  },
+  {
+    label: "About",
+    path: "/about",
+  },
+  {
+    label: "Critetials",
+    path: "/critetials",
+  },
+  {
+    label: "Nominations",
+    path: "/nominations",
+  },
+];
+// =================================================================================
 
 import member1 from "../assets/hero1.jpg";
 import member2 from "../assets/hero2.jpg";

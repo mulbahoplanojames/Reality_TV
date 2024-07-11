@@ -29,7 +29,7 @@ const Navbar = () => {
             darkMode ? "text-black" : "text-black"
           }`}
         >
-          Reality <span className="text-[#f00]">TV</span>
+          Reality <span className="text-blue-400">TV</span>
         </Link>
         {/*//! Menu items for larger devices and mapping through the links */}
         <ul className="max-lg:hidden">

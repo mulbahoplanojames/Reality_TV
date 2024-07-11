@@ -3,7 +3,7 @@ import { faqdata } from "../../Data/Data";
 const FAQ = () => {
   return (
     <>
-      <div className="mt-20 mb-20">
+      <div className="mt-20 pb-20">
         <h1 className="text-4xl font-bold text-center pb-10">FAQ</h1>
 
         <div className="join join-vertical w-full ">
