@@ -8,6 +8,7 @@ import MusicCriterials from "./Pages/More_Criterials/Music_Award/MusicAward";
 import SocialsAward from "./Pages/More_Criterials/Socials_Award/SocialsAward";
 import LeaderShipAward from "./Pages/More_Criterials/LeaderShip_Award/LeaderShipAward";
 import EnterpreneurAward from "./Pages/More_Criterials/Entrepreneur_Award/EntrepreneurAward";
+import SportAward from "./Pages/More_Criterials/Sport_Award/SportAward";
 
 const App = () => {
   const { darkModeStyle } = useContext(AppContext);
@@ -35,6 +36,10 @@ const App = () => {
             <Route
               path="/criterials/best-entrepreneur"
               element={<EnterpreneurAward />}
+            />
+            <Route
+              path="/criterials/sports-category"
+              element={<SportAward />}
             />
           </Route>
         </Routes>

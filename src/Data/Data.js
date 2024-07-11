@@ -168,6 +168,6 @@ export const criterialsLinks = [
   {
     id: 6,
     label: "Sports Category",
-    path: "sports-category",
+    path: "/criterials/sports-category",
   },
 ];
