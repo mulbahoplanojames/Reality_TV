@@ -158,25 +158,20 @@ export const criterialsLinks = [
   {
     id: 4,
     label: "Leadership Awards",
-    path: "leadership-awards",
+    path: "/criterials/leadership-awards",
   },
   {
     id: 5,
-    label: "Mentorship Awards",
-    path: "mentorship-awards",
-  },
-  {
-    id: 6,
     label: "Best Entrepreneur",
     path: "best-entrepreneur",
   },
   {
-    id: 7,
+    id: 6,
     label: "Player Category",
     path: "player-category",
   },
   {
-    id: 8,
+    id: 7,
     label: "Coaching Category",
     path: "coaching-category",
   },
