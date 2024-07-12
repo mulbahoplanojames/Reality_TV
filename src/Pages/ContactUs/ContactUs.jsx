@@ -1,6 +1,45 @@
+import { useState } from "react";
 import image from "/src/assets/hero3.jpg";
+import Swal from "sweetalert2";
 
 const ContactUs = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "be41465b-b33a-4603-aab8-6c235bb6443e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+      Swal.fire({
+        // Display a success message using SweetAlert2
+        title: "🎉👏🙌✨🎊",
+        text: "Message sent successfully!",
+        icon: "success",
+      });
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+      Swal.fire({
+        // Display an error message using SweetAlert2
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+      });
+    }
+  };
+
   return (
     <>
       <div className="pt-24 md:px-10 px-3 pb-20">
@@ -18,12 +57,13 @@ const ContactUs = () => {
           <div className="w-full md:h-[30rem] h-[40vh] bg-red-400 overflow-hidden rounded-md">
             <img src={image} alt="" className="w-full h-full object-cover" />
           </div>
-          <form action="" className="w-full md:px-4 px-1">
+          <form onSubmit={onSubmit} className="w-full md:px-4 px-1">
             <div className="">
               <label htmlFor="name" className="text-lg inline-block pb-1">
                 Name
               </label>
               <input
+                name="name"
                 type="text"
                 placeholder="Enter your name"
                 className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
@@ -34,6 +74,7 @@ const ContactUs = () => {
                 Email
               </label>
               <input
+                name="email"
                 type="email"
                 placeholder="Enter your email"
                 className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
@@ -44,13 +85,13 @@ const ContactUs = () => {
                 Message
               </label>
               <textarea
-                name=""
+                name="message"
                 id=""
                 placeholder="Enter your message"
                 className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6 h-[12rem]"
               />
             </div>
-
+            <p className="text-lg pb-2">{result}</p>
             <button
               type="submit"
               className="py-2 px-6 bg-blue-300 text-xl text-white border-none rounded-xl hover:bg-opacity-70 mb-5"
