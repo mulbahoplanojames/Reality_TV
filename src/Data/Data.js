@@ -36,7 +36,7 @@ export const footerLinks = [
 ];
 // =================================================================================
 
-import member1 from "/src/assets/wiston.jpeg";
+import member1 from "/src/assets/winston1.jpeg";
 import member2 from "/src/assets/emmanuel.jpeg";
 import member3 from "/src/assets/daniel.jpeg";
 import member4 from "../assets/hero2.jpg";
