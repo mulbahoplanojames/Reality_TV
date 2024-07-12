@@ -57,7 +57,7 @@ export const TeamData = [
   {
     id: 2,
     name: "Emmanuel Steven Kamara",
-    role: "Director",
+    role: "Program Coordinator",
     image: member2,
     social_links: {
       facebook: "https://www.facebook.com/",
