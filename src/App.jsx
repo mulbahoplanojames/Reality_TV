@@ -23,26 +23,11 @@ const App = () => {
 
             {/* // Criterials Pages */}
             <Route path="/criterials" element={<Criterial />} />
-            <Route
-              path="/criterials/muscial-awards"
-              element={<MusicCriterials />}
-            />
-            <Route
-              path="/criterials/social-awards"
-              element={<SocialsAward />}
-            />
-            <Route
-              path="/criterials/leadership-awards"
-              element={<LeaderShipAward />}
-            />
-            <Route
-              path="/criterials/best-entrepreneur"
-              element={<EnterpreneurAward />}
-            />
-            <Route
-              path="/criterials/sports-category"
-              element={<SportAward />}
-            />
+            <Route path="/muscial-awards" element={<MusicCriterials />} />
+            <Route path="/social-awards" element={<SocialsAward />} />
+            <Route path="/leadership-awards" element={<LeaderShipAward />} />
+            <Route path="/best-entrepreneur" element={<EnterpreneurAward />} />
+            <Route path="/sports-category" element={<SportAward />} />
           </Route>
         </Routes>
       </div>

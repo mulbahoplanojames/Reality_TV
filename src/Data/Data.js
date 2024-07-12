@@ -141,7 +141,7 @@ export const criterialsLinks = [
   {
     id: 1,
     label: "Musical Awards",
-    path: "/criterials/muscial-awards",
+    path: "/muscial-awards",
   },
   {
     id: 2,
@@ -151,21 +151,21 @@ export const criterialsLinks = [
   {
     id: 3,
     label: "Social Awards",
-    path: "/criterials/social-awards",
+    path: "/social-awards",
   },
   {
     id: 4,
     label: "Leadership Awards",
-    path: "/criterials/leadership-awards",
+    path: "/leadership-awards",
   },
   {
     id: 5,
     label: "Best Entrepreneur",
-    path: "/criterials/best-entrepreneur",
+    path: "/best-entrepreneur",
   },
   {
     id: 6,
     label: "Sports Category",
-    path: "/criterials/sports-category",
+    path: "/sports-category",
   },
 ];
