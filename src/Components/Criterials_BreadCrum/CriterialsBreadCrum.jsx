@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { criterialsLinks } from "../../Data/Data";
 
 const CriterialsBreadCrum = ({ text }) => {
@@ -19,7 +20,7 @@ const CriterialsBreadCrum = ({ text }) => {
                   <ul className="bg-base-100 rounded-t-none p-2">
                     {criterialsLinks.map((link) => (
                       <li key={link.label} className="text-black">
-                        <a href={link.path}>{link.label}</a>
+                        <Link to={link.path}>{link.label}</Link>
                       </li>
                     ))}
                   </ul>
