@@ -19,24 +19,37 @@ const ContactUs = () => {
             <img src={image} alt="" className="w-full h-full object-cover" />
           </div>
           <form action="" className="w-full md:px-4 px-1">
-            <input
-              type="text"
-              placeholder="Enter your name"
-              className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
-            />
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Enter your message"
-              className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
-            />
+            <div className="">
+              <label htmlFor="name" className="text-lg inline-block pb-1">
+                Name
+              </label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
+              />
+            </div>
+            <div className="mb-2">
+              <label htmlFor="email" className="text-lg inline-block pb-1">
+                Email
+              </label>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6"
+              />
+            </div>
+            <div className="">
+              <label htmlFor="message" className="text-lg inline-block pb-1">
+                Message
+              </label>
+              <textarea
+                name=""
+                id=""
+                placeholder="Enter your message"
+                className="w-full p-2 rounded-md border-2 border-blue-300 outline-none mb-6 h-[12rem]"
+              />
+            </div>
 
             <button
               type="submit"

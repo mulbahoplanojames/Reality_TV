@@ -36,27 +36,27 @@ export const footerLinks = [
 ];
 // =================================================================================
 
-import member1 from "../assets/hero1.jpg";
-import member2 from "../assets/hero2.jpg";
-import member3 from "../assets/hero3.jpg";
+import member1 from "/src/assets/wiston.jpeg";
+import member2 from "/src/assets/emmanuel.jpeg";
+import member3 from "/src/assets/daniel.jpeg";
 import member4 from "../assets/hero2.jpg";
 import member5 from "../assets/hero1.jpg";
 
 export const TeamData = [
   {
     id: 1,
-    name: "Samantha",
-    role: "Director",
+    name: "Winston W. Cooper",
+    role: "CEO/Founder of Live Reality TV",
     image: member1,
     social_links: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
+      facebook: "https://www.facebook.com/joetta.borzie?mibextid=ZbWKwL",
+      twitter: "cooperdeagay@gmail.com ",
+      instagram: "ek2326819@gmail.com",
     },
   },
   {
     id: 2,
-    name: "Samantha",
+    name: "Emmanuel Steven Kamara",
     role: "Director",
     image: member2,
     social_links: {
@@ -67,19 +67,21 @@ export const TeamData = [
   },
   {
     id: 3,
-    name: "Samantha",
-    role: "Director",
+    name: "T Daniel Kaye Zean",
+    role: "Co-Director",
     image: member3,
     social_links: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
+      facebook: "https://www.facebook.com/Procadoe?mibextid=kFxxJD",
+      twitter:
+        "https://www.linkedin.com/in/t-daniel-zean-1b01a82a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram:
+        "https://www.instagram.com/tdaniel.official?igsh=dHNqOWF0ZHg2YWpu",
     },
   },
   {
     id: 4,
     name: "Samantha",
-    role: "Director",
+    role: "Member",
     image: member4,
     social_links: {
       facebook: "https://www.facebook.com/",
@@ -89,8 +91,8 @@ export const TeamData = [
   },
   {
     id: 5,
-    name: "Samantha",
-    role: "Director",
+    name: "No Name",
+    role: "Member",
     image: member5,
     social_links: {
       facebook: "https://www.facebook.com/",

@@ -26,13 +26,13 @@ const Team = () => {
               <h1 className="text-2xl font-bold pt-3 pb-1">{member.name}</h1>
               <h2 className="text-lg pb-4">{member.role}</h2>
               <div className="flex gap-6 pb-4">
-                <Link to={member.social_links.facebook}>
+                <Link to={member.social_links.facebook} target="blank">
                   <FaFacebookSquare className={`text-2xl `} />
                 </Link>
-                <Link to={member.social_links.twitter}>
+                <Link to={member.social_links.twitter} target="blank">
                   <FaXTwitter className={`text-2xl `} />
                 </Link>
-                <Link to={member.social_links.instagram}>
+                <Link to={member.social_links.instagram} target="blank">
                   <FaInstagram className={`text-2xl `} />
                 </Link>
               </div>
