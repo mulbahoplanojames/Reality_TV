@@ -68,7 +68,7 @@ export const TeamData = [
   {
     id: 3,
     name: "T Daniel Kaye Zean",
-    role: "Co-Director",
+    role: "Administrator/Co-Host",
     image: member3,
     social_links: {
       facebook: "https://www.facebook.com/Procadoe?mibextid=kFxxJD",
