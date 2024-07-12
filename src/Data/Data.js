@@ -78,28 +78,28 @@ export const TeamData = [
         "https://www.instagram.com/tdaniel.official?igsh=dHNqOWF0ZHg2YWpu",
     },
   },
-  {
-    id: 4,
-    name: "Samantha",
-    role: "Member",
-    image: member4,
-    social_links: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
-    },
-  },
-  {
-    id: 5,
-    name: "No Name",
-    role: "Member",
-    image: member5,
-    social_links: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
-    },
-  },
+  // {
+  //   id: 4,
+  //   name: "Samantha",
+  //   role: "Member",
+  //   image: member4,
+  //   social_links: {
+  //     facebook: "https://www.facebook.com/",
+  //     twitter: "https://twitter.com/",
+  //     instagram: "https://www.instagram.com/",
+  //   },
+  // },
+  // {
+  //   id: 5,
+  //   name: "No Name",
+  //   role: "Member",
+  //   image: member5,
+  //   social_links: {
+  //     facebook: "https://www.facebook.com/",
+  //     twitter: "https://twitter.com/",
+  //     instagram: "https://www.instagram.com/",
+  //   },
+  // },
 ];
 
 export const faqdata = [
