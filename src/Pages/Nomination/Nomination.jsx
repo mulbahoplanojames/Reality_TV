@@ -13,9 +13,9 @@ const Nomination = () => {
           onSubmitForm={() => console.log("Form submitted")}
         />
 
-        <h1 className="text-center text-3xl py-5 md:pb-[9rem]">
+        {/* <h1 className="text-center text-3xl py-5 md:pb-[9rem]">
           Nomination Portal will be Out Soon
-        </h1>
+        </h1> */}
       </div>
     </>
   );
