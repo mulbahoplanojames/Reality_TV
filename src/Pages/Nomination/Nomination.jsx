@@ -1,10 +1,13 @@
 import FormfacadeEmbed from "@formfacade/embed-react";
+import { useContext } from "react";
+import { AppContext } from "../../Context/AppContext";
 
 const Nomination = () => {
+  const { darkMode } = useContext(AppContext);
   return (
     <>
-      <div className="pt-32 px-3 ">
-        <h1 className="text-center text-3xl uppercase">
+      <div className="pt-32 px-3 bg-black">
+        <h1 className="text-center text-3xl uppercase text-white">
           Please fill in this form to nominate a person
         </h1>
 
