@@ -4,14 +4,18 @@ const Nomination = () => {
   return (
     <>
       <div className="pt-32 px-3 ">
-        {/* <FormfacadeEmbed
+        <h1 className="text-center text-3xl uppercase">
+          Please fill in this form to nominate a person
+        </h1>
+
+        <FormfacadeEmbed
           formFacadeURL="https://formfacade.com/include/108351829281762739211/form/1FAIpQLSe6iWzDKwaVqepE1vVclDnbq3yeUuKif1ApssksouRZ586X0Q/classic.js/?div=ff-compose"
           onSubmitForm={() => console.log("Form submitted")}
-        /> */}
+        />
 
-        <h1 className="text-center text-3xl py-5 md:pb-[9rem]">
+        {/* <h1 className="text-center text-3xl py-5 md:pb-[9rem]">
           Nomination Portal will be Out Soon
-        </h1>
+        </h1> */}
       </div>
     </>
   );
