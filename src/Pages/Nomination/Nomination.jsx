@@ -6,7 +6,7 @@ const Nomination = () => {
   const { darkMode } = useContext(AppContext);
   return (
     <>
-      <div className="pt-32 px-3">
+      <div className="pt-32 px-3 bg-[#162017]">
         <h1 className="text-center text-3xl uppercase text-white">
           Please fill in this form to nominate a person
         </h1>
